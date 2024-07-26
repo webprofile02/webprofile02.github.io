@@ -1,0 +1,166 @@
+@media screen and (min-width: 320px) and (max-width: 859px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+   
+    .navbar {
+        background-color: #204943;
+    }
+
+    .nav-link {
+        display: block;
+        /* line-height: 65px; */
+        padding-right: 25px;
+        padding-left: 25px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+      }
+
+    .dropdown-item {
+        display: none;
+      }
+    
+    .dropdown-menu {
+        display: none;
+    }
+    
+    .jumbotrone {
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      margin: auto;
+      font-size: 15px;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+    }
+    
+    /* Gambar utama */
+    .gambaratas {
+      border-radius: 10px;
+      margin: 5px auto;
+      width: auto;
+      height: 300px;
+      background-image: url("imgone.png");
+      background-size: cover;
+      background-position: center;
+      box-shadow: 7px 7px 7px #204943;
+    }
+  
+    
+    /* .bungkus {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        justify-content: center;
+        align-items: flex-start;
+      } */
+
+    .tentang h2 {
+      text-align: center;
+    }
+
+
+    .tentang {
+      text-align: justify;
+      line-height: 25px;
+      border-radius: 10px;
+      margin: auto;
+      padding: 25px;
+      width: auto;
+      height: auto;
+      box-shadow: 7px 7px 7px #204943;
+    }
+
+    .visi {
+      text-align: center;
+      line-height: 25px;
+      border-radius: 10px;
+      margin: auto;
+      margin-bottom: 50px;
+      padding: 25px;
+      width: auto;
+      height: auto;
+      box-shadow: 7px 7px 7px #204943;
+    }
+
+    .foot h4 {
+      text-align: center;
+    }
+    
+    .foot {
+      background-color: #204943;
+      
+      padding-top: 10px;
+      padding-bottom: 50px;
+      color: white;
+    }
+
+
+    .klien {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 40px;
+      color: white;
+      background-color: #204943;
+      height: 50px;
+      width: 250px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px auto;
+      text-wrap: wrap;
+    }
+
+    .imgklien {
+      border-radius: 10px;
+      margin: 5px auto;
+      width: auto;
+      height: 400px;
+      background-image: url("imgklien.png");
+      background-color: white;
+      background-position: center;
+      box-shadow: 7px 7px 7px #204943;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative; /* Add this line to enable z-index */
+      z-index: 10; /* Adjust this value as needed to ensure it's in front */
+      margin-bottom: 50px;
+    }
+
+    .gambar-kontak {
+      margin: 0;
+      height: 300px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-image: url("kontak-wp.png");
+    }
+
+    .jumbotron-kontak {
+      text-align: center;
+      font-weight: bold;
+      font-size: 10px;
+      line-height: 50px;
+      width: 200px;
+      height: 50px;
+      background-color: #204943;
+      color: white;
+      margin: auto;
+      border-radius: 10px;
+    }
+
+    .kontak {
+      width: auto;
+      padding-left: 100px;
+      padding-top: 75px;
+      padding-bottom: 20px;
+      line-height: 25px;
+    }
+
+    .peta {
+      margin: auto;
+      box-shadow: 7px 7px 7px #204943;
+    }
+  }
